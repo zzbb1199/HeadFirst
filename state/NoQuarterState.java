@@ -1,5 +1,7 @@
 package state;
 
+import org.omg.CosNaming.BindingIterator;
+
 public class NoQuarterState implements State {
 
     private GumballMachine gumballMachine;

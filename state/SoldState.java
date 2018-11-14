@@ -33,4 +33,5 @@ public class SoldState implements State {
             gumballMachine.setState(gumballMachine.getNoQuarterState());
         }
     }
+
 }

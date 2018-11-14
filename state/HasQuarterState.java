@@ -24,9 +24,9 @@ public class HasQuarterState implements State {
 
     @Override
     public void tumCrank() {
-        if(random.nextInt(10) == 0 && gumballMachine.getCount() >= 2){
+        if (random.nextInt(10) == 0 && gumballMachine.getCount() >= 2) {
             gumballMachine.setState(gumballMachine.getWinnerState());
-        }else{
+        } else {
             gumballMachine.setState(gumballMachine.getSoldState());
         }
     }
