@@ -1,4 +1,4 @@
-package adapter.facade;
+package facade;
 
 public class Amplifier {
     public void on(){
