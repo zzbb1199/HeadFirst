@@ -9,7 +9,7 @@ public class Main {
             InputStream in = new LowerCaseInputStream(
                     new BufferedInputStream(
                             new FileInputStream(
-                                    "D:\\Projects\\JavaProjects\\HeadFirstLearn\\src\\chapter3\\io\\test.txt")));
+                                    "D:\\Projects\\JavaProjects\\HeadFirstLearn\\src\\chapter3\\io\\singleton.test.txt")));
             while((c = in.read()) >= 0){
                 System.out.print((char)c);
             }

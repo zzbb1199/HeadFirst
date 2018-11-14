@@ -1,4 +1,4 @@
-package test;
+package singleton.test;
 
 public class StatChangeThread extends Thread {
 
