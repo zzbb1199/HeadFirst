@@ -1,4 +1,4 @@
-package chapter1.game;
+package strategy.game;
 
 public class Main {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package chapter1.duckbehaviour.right;
+package strategy.duckbehaviour.right;
 
 public class Duck3 extends Duck {
     public Duck3() {

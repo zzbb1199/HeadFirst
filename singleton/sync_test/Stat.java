@@ -1,4 +1,4 @@
-package singleton.test;
+package singleton.sync_test;
 
 public class Stat {
     private int a = 0;

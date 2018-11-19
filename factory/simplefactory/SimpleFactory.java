@@ -1,4 +1,4 @@
-package chapter4.simplefactory;
+package factory.simplefactory;
 
 public class SimpleFactory {
     public static Pizza createPizza(String type){

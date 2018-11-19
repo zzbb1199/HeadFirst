@@ -1,4 +1,4 @@
-package chapter1.duckbehaviour.right;
+package strategy.duckbehaviour.right;
 
 public class Main {
     public static void main(String[] args){

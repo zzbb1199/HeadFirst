@@ -1,5 +1,5 @@
-package chapter2.push;
+package observe.push;
 
 public interface Observer {
-    void update(float temperature,float humidity);
+    void update(float temperature, float humidity);
 }

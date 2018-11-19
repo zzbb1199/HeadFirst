@@ -1,4 +1,4 @@
-package chapter2.pull;
+package observe.pull;
 
 import java.util.ArrayList;
 

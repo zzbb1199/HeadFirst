@@ -1,4 +1,4 @@
-package chapter3.coffee;
+package decorate.coffee;
 
 public abstract class Beverage {
     protected String description;

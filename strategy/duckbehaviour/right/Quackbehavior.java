@@ -1,4 +1,4 @@
-package chapter1.duckbehaviour.right;
+package strategy.duckbehaviour.right;
 
 public interface Quackbehavior {
     void quack();

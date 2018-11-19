@@ -1,4 +1,4 @@
-package observe.javaapi;
+package observe.javaapi_buildinobesrve;
 
 public interface DisplayBehavior {
     void display();

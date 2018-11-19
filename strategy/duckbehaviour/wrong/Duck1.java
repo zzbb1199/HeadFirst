@@ -1,4 +1,4 @@
-package chapter1.duckbehaviour.wrong;
+package strategy.duckbehaviour.wrong;
 
 /**
  * Duck1 能够fly也能quack

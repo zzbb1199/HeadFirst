@@ -1,4 +1,4 @@
-package chapter2.pull;
+package observe.pull;
 
 public class Main {
     public static void main(String[] args){

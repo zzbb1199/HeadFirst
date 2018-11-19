@@ -1,4 +1,4 @@
-package chapter3.coffee;
+package decorate.coffee;
 
 public class MochaDecorator extends CondimentDecorator {
 

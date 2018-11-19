@@ -1,4 +1,4 @@
-package chapter2.push;
+package observe.push;
 
 public class Main {
     public static void main(String[] args){

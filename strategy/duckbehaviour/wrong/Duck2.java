@@ -1,4 +1,4 @@
-package chapter1.duckbehaviour.wrong;
+package strategy.duckbehaviour.wrong;
 
 /**
  * Duck2 不能叫

@@ -1,4 +1,4 @@
-package chapter4.simplefactory;
+package factory.simplefactory;
 
 public abstract class Pizza {
 
