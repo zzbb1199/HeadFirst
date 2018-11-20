@@ -1,7 +1,7 @@
-package chapter1.duckbehaviour.wrong;
+package strategy.duckbehaviour.wrong;
 
 /**
- * Duck1 能够fly也能quack
+ * strategy.duckbehaviour.right.strategy.duckbehaviour.wrong.Duck1 能够fly也能quack
  */
 public class Duck1 extends Duck{
     @Override

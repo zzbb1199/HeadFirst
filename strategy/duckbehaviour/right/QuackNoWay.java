@@ -1,4 +1,4 @@
-package chapter1.duckbehaviour.right;
+package strategy.duckbehaviour.right;
 
 public class QuackNoWay implements Quackbehavior {
     @Override
