@@ -3,7 +3,7 @@ package adapter.duck;
 public class MallardDuck implements Duck {
     @Override
     public void quack() {
-        System.out.println("Quack");
+        System.out.println("strategy.duckbehaviour.right.Quack");
     }
 
     @Override
