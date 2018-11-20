@@ -1,4 +1,4 @@
-package chapter1.game;
+package strategy.game;
 
 public class Knight extends Character {
     public Knight() {
