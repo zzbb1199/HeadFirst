@@ -1,4 +1,4 @@
-package compound;
+package compound.duck;
 
 public interface QuackObservable {
     void registerObserver(Observer observer);

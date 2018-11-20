@@ -1,4 +1,4 @@
-package compound;
+package compound.duck;
 
 public class DuckFactory extends AbstractDuckFactory {
     @Override

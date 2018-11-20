@@ -1,15 +1,19 @@
-package compound;
+package compound.duck;
 
-public class RedHeadDuck implements Quackable {
+public class GooseAdapter implements Quackable {
+
+    Goose goose;
     private Observable observable;
 
-    public RedHeadDuck(){
+
+    public GooseAdapter(Goose goose) {
+        this.goose = goose;
         observable = new Observable(this);
     }
 
     @Override
     public void quack() {
-        System.out.println("Quack");
+        goose.hook();
         notifyObservers();
     }
 
@@ -28,4 +32,6 @@ public class RedHeadDuck implements Quackable {
     public void notifyObservers() {
         observable.notifyObservers();
     }
+
+
 }

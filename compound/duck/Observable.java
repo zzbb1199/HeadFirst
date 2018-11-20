@@ -1,4 +1,4 @@
-package compound;
+package compound.duck;
 
 import java.util.ArrayList;
 

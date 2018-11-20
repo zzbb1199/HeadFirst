@@ -1,4 +1,4 @@
-package compound;
+package compound.duck;
 
 public class DuckSimulator {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package compound;
+package compound.duck;
 
 public abstract class AbstractDuckFactory {
     abstract Quackable createMallardDuck();
