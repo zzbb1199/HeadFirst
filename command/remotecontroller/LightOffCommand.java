@@ -1,6 +1,6 @@
 package command.remotecontroller;
 
-public class LightOffCommand implements Command{
+public class LightOffCommand implements Command {
     private Light light;
 
     public LightOffCommand(Light light) {

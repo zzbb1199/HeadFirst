@@ -12,7 +12,7 @@ public class ImageComponent extends JComponent {
         this.icon = icon;
     }
 
-    public void setIcon(Icon icon){
+    public void setIcon(Icon icon) {
         this.icon = icon;
     }
 
@@ -21,8 +21,8 @@ public class ImageComponent extends JComponent {
         super.paintComponent(g);
         int w = icon.getIconWidth();
         int h = icon.getIconHeight();
-        int x = (600-w)/2;
-        int y = (600 - h)/2;
-        icon.paintIcon(this,g,x,y);
+        int x = (600 - w) / 2;
+        int y = (600 - h) / 2;
+        icon.paintIcon(this, g, x, y);
     }
 }

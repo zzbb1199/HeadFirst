@@ -19,11 +19,11 @@ public class ImageProxy implements Icon {
 
     @Override
     public void paintIcon(Component c, Graphics g, int x, int y) {
-        if(imageIcon!=null){
-            imageIcon.paintIcon(c,g,x,y);
-        }else{
-            g.drawString("loading...",x+300,y+190);
-            if(!retrieving){
+        if (imageIcon != null) {
+            imageIcon.paintIcon(c, g, x, y);
+        } else {
+            g.drawString("loading...", x + 300, y + 190);
+            if (!retrieving) {
                 retrieving = true;
                 retrievalThread = new Thread(new Runnable() {
                     @Override
@@ -39,18 +39,18 @@ public class ImageProxy implements Icon {
 
     @Override
     public int getIconWidth() {
-        if(imageIcon != null){
+        if (imageIcon != null) {
             return imageIcon.getIconWidth();
-        }else{
+        } else {
             return 600;
         }
     }
 
     @Override
     public int getIconHeight() {
-        if(imageIcon != null){
+        if (imageIcon != null) {
             return imageIcon.getIconHeight();
-        }else{
+        } else {
             return 600;
         }
     }
