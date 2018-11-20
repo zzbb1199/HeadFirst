@@ -1,7 +1,7 @@
 package strategy.duckbehaviour.wrong;
 
 /**
- * Duck2 不能叫
+ * strategy.duckbehaviour.right.strategy.duckbehaviour.wrong.Duck2 不能叫
  */
 public class Duck2 extends Duck {
     @Override

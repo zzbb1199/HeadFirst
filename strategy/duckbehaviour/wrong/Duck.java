@@ -1,7 +1,7 @@
 package strategy.duckbehaviour.wrong;
 
 /**
- * Duck 的基类，错误使用方法
+ * strategy.duckbehaviour.right.strategy.duckbehaviour.wrong.Duck 的基类，错误使用方法
  */
 public class Duck {
     void swim(){
