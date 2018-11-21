@@ -1,0 +1,64 @@
+@startuml
+
+
+package 客户{
+
+    abstract Duck{
+        FlyBehavior flybehavior
+        setFlyBehavior()
+        siwm()
+    }
+
+
+    class MallardDuck{
+          FlyBehavior flybehavior
+                setFlyBehavior()
+                siwm()
+    }
+
+    class RedHeadDuck{
+              FlyBehavior flybehavior
+                    setFlyBehavior()
+                    siwm()
+    }
+
+    class RubberDuck{
+             FlyBehavior flybehavior
+                   setFlyBehavior()
+                   siwm()
+    }
+
+
+    Duck <|-- MallardDuck
+    Duck <|-- RedHeadDuck
+    Duck <|-- RubberDuck
+
+
+}
+
+
+
+package 封装飞行行为{
+
+    interface FlyBehavior{
+        fly()
+    }
+
+    class FlyWithWings{
+        fly{    //实现鸭的飞行  }
+    }
+
+    class FlyNoWay{
+        fly{    //什么也不做        }
+    }
+
+    FlyBehavior <|.. FlyWithWings
+    FlyBehavior <|.. FlyNoWay
+
+}
+
+Duck --> FlyBehavior
+
+
+
+@enduml

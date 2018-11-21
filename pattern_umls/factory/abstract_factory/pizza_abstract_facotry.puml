@@ -1,0 +1,58 @@
+@startuml
+
+package 工厂{
+
+interface PizzaIngredientFactory{
+    createDough()
+    createSauce()
+
+}
+
+class NYPizzaIngredientFactory{
+  createDough()
+    createSauce()
+
+}
+
+
+class ChicagoPizzaIngredientFactory{
+    createDough()
+    createSauce()
+}
+
+PizzaIngredientFactory <|.. NYPizzaIngredientFactory
+PizzaIngredientFactory <|.. ChicagoPizzaIngredientFactory
+
+
+}
+
+
+package 产品{
+
+
+interface Dough{
+}
+
+interface Sauce{
+}
+
+Dough <|.. ThickCursDough
+Dough <|.. ThinCursDough
+
+Sauce <|.. PlumTomatoSauce
+Sauce <|.. MarinaraSauce
+
+
+}
+
+
+
+NYPizzaIngredientFactory --> ThickCursDough
+NYPizzaIngredientFactory --> PlumTomatoSauce
+
+
+ChicagoPizzaIngredientFactory --> ThinCursDough
+ChicagoPizzaIngredientFactory --> MarinaraSauce
+
+
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+
+
+interface Duck{
+    quack()
+}
+
+class Adapter{
+    quack()
+}
+
+
+class Goose{
+    hook()
+}
+
+
+Client -> Duck
+Duck <|. Adapter
+Adapter --> Goose
+@enduml

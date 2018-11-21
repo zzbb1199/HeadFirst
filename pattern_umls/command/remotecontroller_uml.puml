@@ -1,0 +1,49 @@
+@startuml
+
+
+class Client{
+}
+
+class Light{
+    on()
+    off()
+}
+
+interface Command{
+    execute()
+    undo
+}
+
+class LightOnCommand{
+    Light light
+    on()
+    undo()
+}
+
+class LightOffCommand{
+    Light light
+    off()
+    undo()
+}
+
+class RemoteController{
+    Command command
+    buttonPressed()
+}
+
+Command <|.. LightOnCommand
+Command <|.. LightOffCommand
+Light <-- LightOnCommand
+Light <-- LightOffCommand
+
+RemoteController --> Command
+
+Client --> Light
+Client --> LightOffCommand
+Client --> LightOnCommand
+
+note as N1
+    调用者(RemoteController) 完全和执行实体(Light)解耦
+end note
+
+@enduml

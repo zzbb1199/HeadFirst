@@ -1,0 +1,41 @@
+@startuml
+
+
+interface Subject{
+    registerObserver()
+    removeObserver()
+    notifyObservers()
+}
+
+
+class WeatherData{
+    registerObserver()
+    removeObserver()
+    notifyObservers()
+}
+
+Subject <|.. WeatherData
+
+
+interface Observer{
+    update()
+}
+
+class CurrentConditionDisplay{
+    update()
+}
+
+class StatisticsDisplay{
+    update()
+}
+
+Observer <|-- CurrentConditionDisplay
+Observer <|-- StatisticsDisplay
+
+
+Observer <|-- Subject: 观察者
+Subject <|- CurrentConditionDisplay: 主题
+
+
+
+@enduml

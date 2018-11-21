@@ -1,0 +1,23 @@
+@startuml
+
+interface Target{
+
+}
+
+class Adapter{
+    request()
+}
+
+class Adaptee{
+    specificRequest()
+}
+
+Client -> Target
+Target <|. Adapter
+Adaptee --> Adapter
+
+note as N1
+    将被适配者转换成客户所需要的目标
+end note
+
+@enduml

@@ -1,0 +1,31 @@
+@startuml
+
+
+package 产品类{
+Pizza <|-- NYStyleCheesePizza
+Pizza <|-- ChicagoStyleCheesePizza
+}
+
+package 创建者类{
+    class PizzaStore{
+        createPizza()
+    }
+
+    class NYPizzaStore{
+        createPizza()
+    }
+
+  class ChicagoPizzaStore{
+        createPizza()
+    }
+
+    PizzaStore <|-- NYPizzaStore
+    PizzaStore <|-- ChicagoPizzaStore
+}
+
+NYPizzaStore -> NYStyleCheesePizza
+ChicagoPizzaStore -> ChicagoStyleCheesePizza
+
+
+
+@enduml

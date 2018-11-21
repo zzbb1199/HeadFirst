@@ -1,0 +1,49 @@
+@startuml
+
+abstract Component{
+    methodA()
+    methodB()
+}
+
+class ConcreteComponent{
+    methodA()
+    methodB()
+
+}
+
+package 装饰者{
+    abstract Decorator{
+        Component wrappedObj
+        methodA()
+        methodB()
+
+    }
+    note right:"根据实际情况看需不要对装饰者进\n行抽象（不一定需要这样一个抽象）"
+
+    class ConcreteDecoratorB{
+        Component wrappedObj
+         methodA()
+        methodB()
+    }
+    note bottom: 装饰者可以加上新的方法。新行为\n是通过在就行为前面或后面做一些计算来添加的
+
+
+
+    class ConcreteDecoratorA{
+        Component wrappedObj
+         methodA()
+        methodB()
+    }
+    note top: 一定会有一个组件的实例，这也是装饰者模式的一个特点
+}
+
+
+
+Component <|-- ConcreteComponent
+Component <|-- Decorator
+
+Decorator <|-- ConcreteDecoratorA
+Decorator <|-- ConcreteDecoratorB
+
+
+@enduml

@@ -1,0 +1,41 @@
+@startuml
+
+package 可观察者/主题{
+    interface Subject{
+        registerObserver(Observer o)
+        removeObserver(Observer o)
+        notifyObservers(Observable o)
+    }
+
+
+   class ConcreteSubject{
+        ArrayList observers
+        registerObserver(Observer o)
+        removeObserver(Observer o)
+        notifyObservers()
+   }
+
+   Subject <|.. ConcreteSubject
+}
+
+package 观察者{
+    interface Observer{
+        update(Observable o)    //pull类型，由观察者控制需要访问的字段
+        update(//需要通知的数据)   //push类型，由被观察者控制，更为安全
+    }
+
+    class ConcreteObserver{
+        update()
+    }
+
+    Observer<|.. ConcreteObserver
+}
+
+Subject --> Observer
+ConcreteSubject <-- ConcreteObserver
+
+note as N1
+    观察者模式将主题和观察者之间松耦合，
+    主题不知道观察者具体类是谁
+end note
+@enduml
