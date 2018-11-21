@@ -1,0 +1,27 @@
+@startuml
+
+abstract Product{
+
+}
+
+
+class ConcreteProduct{
+
+}
+
+Product <|-- ConcreteProduct
+
+abstract Creator{
+
+}
+
+class ConcreteCreator{
+
+}
+
+Creator <|-- ConcreteCreator
+
+
+ConcreteProduct <-- ConcreteCreator
+
+@enduml

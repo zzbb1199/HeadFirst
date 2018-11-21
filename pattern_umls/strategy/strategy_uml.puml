@@ -1,0 +1,66 @@
+@startuml
+
+' 定义Context
+package 场景/客户{
+abstract class Context{
+    Strategy
+    setStrategy(Strategy s)
+}
+
+note right of Context: 不一定需要抽象类
+
+class ConcreteContextA{
+    Strategy
+   setStrategy(Strategy s)
+}
+
+class ConcreteContextB{
+    Strategy
+   setStrategy(Strategy s)
+}
+
+class ConcreteContextC{
+    Strategy
+   setStrategy(Strategy s)
+}
+
+Context <|-- ConcreteContextA
+Context <|-- ConcreteContextB
+Context <|-- ConcreteContextC
+}
+
+
+package 策略/算法族{
+'定义策略，算法族
+interface Strategy{
+    method()
+}
+note right: 封装策略
+
+class ConcreteStrategyA{
+    method()
+}
+
+class ConcreteStrategyB{
+    method()
+}
+
+class ConcreteStrategyC{
+    method()
+}
+
+Strategy <|.. ConcreteStrategyA
+Strategy <|.. ConcreteStrategyB
+Strategy <|.. ConcreteStrategyC
+}
+
+
+'组合
+note "Has a(多用组合的思想)" as N1
+N1-->Strategy
+N1--Context
+
+
+
+
+@enduml
