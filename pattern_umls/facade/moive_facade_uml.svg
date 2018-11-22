@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="265px" preserveAspectRatio="none" style="width:214px;height:265px;" version="1.1" viewBox="0 0 214 265" width="214px" zoomAndPan="magnify"><defs><filter height="300%" id="f1gowg5nq3yqo5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--class CdPlayer--><rect fill="#FEFECE" filter="url(#f1gowg5nq3yqo5)" height="78.0459" id="CdPlayer" style="stroke: #A80036; stroke-width: 1.5;" width="82" x="6" y="176"/><ellipse cx="21" cy="192" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M20.6875,198 Q18.75,198 17.625,196.5703 Q16.5,195.1406 16.5,192.1875 Q16.5,189.6875 17.6875,188 Q18.875,186.3125 20.9375,186.3125 Q21.3906,186.3125 21.8281,186.3125 Q22.2656,186.3125 22.5781,186.3125 Q22.8281,186.3125 22.9922,186.3125 Q23.1563,186.3125 23.5625,186.3125 L24.2656,190 L23.2031,190 Q22.7656,188.9063 22.1953,188.4531 Q21.625,188 20.7031,188 Q19.5469,188 18.8672,189.1797 Q18.1875,190.3594 18.1875,192.1875 Q18.1875,194.2031 18.7109,195.2578 Q19.2344,196.3125 20.6406,196.3125 Q21.5625,196.3125 22.2109,195.7422 Q22.8594,195.1719 23.2031,193.7813 L24.2344,194.2969 Q23.8438,196.0469 22.9063,197.0234 Q21.9688,198 20.6875,198 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="35" y="197.5576">CdPlayer</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="87" y1="208" y2="208"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="87" y1="216" y2="216"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="20" x="12" y="232.606">on()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="22" x="12" y="247.6289">off()</text><!--class Amplifier--><rect fill="#FEFECE" filter="url(#f1gowg5nq3yqo5)" height="78.0459" id="Amplifier" style="stroke: #A80036; stroke-width: 1.5;" width="80" x="123" y="176"/><ellipse cx="138" cy="192" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M137.6875,198 Q135.75,198 134.625,196.5703 Q133.5,195.1406 133.5,192.1875 Q133.5,189.6875 134.6875,188 Q135.875,186.3125 137.9375,186.3125 Q138.3906,186.3125 138.8281,186.3125 Q139.2656,186.3125 139.5781,186.3125 Q139.8281,186.3125 139.9922,186.3125 Q140.1563,186.3125 140.5625,186.3125 L141.2656,190 L140.2031,190 Q139.7656,188.9063 139.1953,188.4531 Q138.625,188 137.7031,188 Q136.5469,188 135.8672,189.1797 Q135.1875,190.3594 135.1875,192.1875 Q135.1875,194.2031 135.7109,195.2578 Q136.2344,196.3125 137.6406,196.3125 Q138.5625,196.3125 139.2109,195.7422 Q139.8594,195.1719 140.2031,193.7813 L141.2344,194.2969 Q140.8438,196.0469 139.9063,197.0234 Q138.9688,198 137.6875,198 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="152" y="197.5576">Amplifier</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="124" x2="202" y1="208" y2="208"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="124" x2="202" y1="216" y2="216"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="20" x="129" y="232.606">on()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="22" x="129" y="247.6289">off()</text><!--class HomeTheaterFacade--><rect fill="#FEFECE" filter="url(#f1gowg5nq3yqo5)" height="108.0918" id="HomeTheaterFacade" style="stroke: #A80036; stroke-width: 1.5;" width="149" x="30.5" y="8"/><ellipse cx="45.5" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M45.1875,30 Q43.25,30 42.125,28.5703 Q41,27.1406 41,24.1875 Q41,21.6875 42.1875,20 Q43.375,18.3125 45.4375,18.3125 Q45.8906,18.3125 46.3281,18.3125 Q46.7656,18.3125 47.0781,18.3125 Q47.3281,18.3125 47.4922,18.3125 Q47.6563,18.3125 48.0625,18.3125 L48.7656,22 L47.7031,22 Q47.2656,20.9063 46.6953,20.4531 Q46.125,20 45.2031,20 Q44.0469,20 43.3672,21.1797 Q42.6875,22.3594 42.6875,24.1875 Q42.6875,26.2031 43.2109,27.2578 Q43.7344,28.3125 45.1406,28.3125 Q46.0625,28.3125 46.7109,27.7422 Q47.3594,27.1719 47.7031,25.7813 L48.7344,26.2969 Q48.3438,28.0469 47.4063,29.0234 Q46.4688,30 45.1875,30 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="117" x="59.5" y="29.5576">HomeTheaterFacade</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="31.5" x2="178.5" y1="40" y2="40"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="88" x="36.5" y="56.606">CdPlayer cdPlayer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85" x="36.5" y="71.6289">Amplifier amplifier</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="31.5" x2="178.5" y1="78.0459" y2="78.0459"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="36.5" y="94.6519">watchMovie()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="54" x="36.5" y="109.6748">endMovie()</text><!--link HomeTheaterFacade to CdPlayer--><path d="M84.5514,116.237 C77.6351,134.243 70.0061,154.1047 63.4414,171.1957 " fill="none" id="HomeTheaterFacade-CdPlayer" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="61.6195,175.939,68.5808,168.9719,63.4125,171.2715,61.1129,166.1032,61.6195,175.939" style="stroke: #A80036; stroke-width: 1.0;"/><!--link HomeTheaterFacade to Amplifier--><path d="M125.449,116.237 C132.365,134.243 139.994,154.1047 146.559,171.1957 " fill="none" id="HomeTheaterFacade-Amplifier" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="148.381,175.939,148.8873,166.1032,146.5879,171.2716,141.4195,168.9721,148.381,175.939" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+
+
+class CdPlayer{
+    on()
+    off()
+}
+
+class Amplifier{
+    on()
+    off()
+}
+
+class HomeTheaterFacade{
+    CdPlayer cdPlayer
+    Amplifier amplifier
+    watchMovie()
+    endMovie()
+}
+
+HomeTheaterFacade - -> CdPlayer
+HomeTheaterFacade - -> Amplifier
+@enduml
+
+PlantUML version 1.2018.11(Sun Sep 23 00:43:53 CST 2018)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_152-release-1248-b22
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>

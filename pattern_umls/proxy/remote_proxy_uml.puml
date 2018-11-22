@@ -1,0 +1,10 @@
+@startuml
+
+class Client{
+
+}
+
+Client <-> Proxy: request()
+Proxy <-> RealSubject: request()
+
+@enduml

@@ -57,7 +57,7 @@ package 封装飞行行为{
 
 }
 
-Duck --> FlyBehavior
+Duck -> FlyBehavior
 
 
 

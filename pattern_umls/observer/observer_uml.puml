@@ -31,8 +31,8 @@ package 观察者{
     Observer<|.. ConcreteObserver
 }
 
-Subject --> Observer
-ConcreteSubject <-- ConcreteObserver
+Subject -> Observer
+ConcreteSubject <- ConcreteObserver
 
 note as N1
     观察者模式将主题和观察者之间松耦合，

@@ -1,0 +1,17 @@
+@startuml
+
+abstract class AbstractClass{
+    templateMethod()        //对外暴露的算法框架
+    primitiveOperation1()   //模板方法使用到的原语操作
+    primitiveOperation2()   //模板方法使用到的原语操作
+}
+
+
+class ConcreteClass{
+    primitiveOperation1()
+    primitiveOperation2()
+}
+note right: "这个具体类实现抽象的操作，当模板方法小这两个抽象方时，会调用它们\n可能会有多个具体类"
+
+AbstractClass <|-- ConcreteClass
+@enduml

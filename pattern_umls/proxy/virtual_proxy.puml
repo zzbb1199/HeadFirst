@@ -1,0 +1,14 @@
+@startuml
+
+class Client{
+
+}
+
+class Proxy{
+}
+note top: 代理可以处理这些请求。如果RealSubject已经创建了，代理请求委托给RealSubject
+
+Client <-> Proxy: request()
+Proxy <-> RealSubject: request()
+
+@enduml

@@ -21,13 +21,13 @@ class Invoker{
 
 }
 
-Client --> Receiver
-Client --> ConcreteCommand
-Receiver --> ConcreteCommand
+Receiver <- Client
+Client -> ConcreteCommand
+Receiver <-- ConcreteCommand
 
 Command <|.. ConcreteCommand
 
-Invoker --> Command
+Command <- Invoker
 
 
 

@@ -1,0 +1,30 @@
+@startuml
+
+class Client{
+
+}
+
+
+Client --> Facade
+
+Facade -- SubSystem1
+Facade -- SubSystem2
+Facade -- SubSystem3
+
+SubSystem1 -- SubsubSystemA1
+SubSystem1 -- SubsubSystemA2
+SubSystem1 -- SubsubSystemA3
+
+SubSystem2 -- SubsubSystemB1
+SubSystem2 -- SubsubSystemB2
+SubSystem2 -- SubsubSystemB3
+
+SubSystem3 -- SubsubSystemC1
+SubSystem3 -- SubsubSystemC2
+SubSystem3 -- SubsubSystemC3
+
+
+
+
+
+@enduml

@@ -1,0 +1,34 @@
+@startuml
+
+interface Aggregate{
+    createIterator()
+}
+
+
+class ConcreteAggregate{
+        createIterator()
+}
+note right: 将集合的遍历职责委托到跌倒器中，\n让集合集中维护自己的功能
+
+interface Iterator{
+    hasNext()
+    next()
+    remove()
+}
+
+class ConcreteIterator{
+        hasNext()
+        next()
+        remove()
+}
+
+Aggregate <|.. ConcreteAggregate
+Iterator <|.. ConcreteIterator
+
+ConcreteIterator <- ConcreteAggregate
+
+Client -> Aggregate
+Iterator <- Client
+
+
+@enduml

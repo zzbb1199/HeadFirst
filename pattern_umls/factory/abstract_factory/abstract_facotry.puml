@@ -41,11 +41,11 @@ package 产品{
 
 
 
-ConcreteFactory1 --> ProductA1
-ConcreteFactory1 --> ProductB1
+ConcreteFactory1 -> ProductA1
+ConcreteFactory1 -> ProductB1
 
-ConcreteFactory2 --> ProductA2
-ConcreteFactory2 --> ProductB2
+ConcreteFactory2 -> ProductA2
+ConcreteFactory2 -> ProductB2
 
 
 @enduml

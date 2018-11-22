@@ -47,12 +47,12 @@ Sauce <|.. MarinaraSauce
 
 
 
-NYPizzaIngredientFactory --> ThickCursDough
-NYPizzaIngredientFactory --> PlumTomatoSauce
+NYPizzaIngredientFactory -> ThickCursDough
+NYPizzaIngredientFactory -> PlumTomatoSauce
 
 
-ChicagoPizzaIngredientFactory --> ThinCursDough
-ChicagoPizzaIngredientFactory --> MarinaraSauce
+ChicagoPizzaIngredientFactory -> ThinCursDough
+ChicagoPizzaIngredientFactory -> MarinaraSauce
 
 
 @enduml

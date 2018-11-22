@@ -1,0 +1,37 @@
+@startuml
+
+' 定义Context
+
+abstract class GumballMachine{
+    State
+    setState(State s)
+}
+
+
+
+GumballMachine -> State
+
+
+interface State{
+    handle()
+}
+
+class SoldOutState{
+    handle()
+}
+
+class SoldState{
+    handle()
+}
+
+
+State <|.. SoldOutState
+State <|.. SoldState
+
+
+
+
+
+
+
+@enduml

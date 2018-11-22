@@ -33,8 +33,9 @@ Observer <|-- CurrentConditionDisplay
 Observer <|-- StatisticsDisplay
 
 
-Observer <|-- Subject: 观察者
-Subject <|- CurrentConditionDisplay: 主题
+Observer <|- Subject: 观察者
+CurrentConditionDisplay -> WeatherData: 订阅主题
+StatisticsDisplay -> WeatherData: 订阅主题
 
 
 

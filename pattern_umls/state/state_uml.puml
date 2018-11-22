@@ -1,0 +1,41 @@
+@startuml
+
+' 定义Context
+package 场景/对象{
+abstract class Context{
+    State
+    setState(State s)
+}
+}
+
+
+Context -> State
+
+package 状态{
+interface State{
+    handle()
+}
+
+class ConcreteStrategyA{
+    handle()
+}
+
+class ConcreteStrategyB{
+    handle()
+}
+
+class ConcreteStrategyC{
+    handle()
+}
+
+State <|.. ConcreteStrategyA
+State <|.. ConcreteStrategyB
+State <|.. ConcreteStrategyC
+}
+
+
+
+
+
+
+@enduml

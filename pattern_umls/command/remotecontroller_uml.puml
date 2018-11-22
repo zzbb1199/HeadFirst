@@ -32,15 +32,15 @@ class RemoteController{
 }
 
 Command <|.. LightOnCommand
-Command <|.. LightOffCommand
+Command <|. LightOffCommand
 Light <-- LightOnCommand
 Light <-- LightOffCommand
 
-RemoteController --> Command
+Command <-- RemoteController
 
-Client --> Light
-Client --> LightOffCommand
-Client --> LightOnCommand
+Client -> Light
+Client -> LightOffCommand
+Client -> LightOnCommand
 
 note as N1
     调用者(RemoteController) 完全和执行实体(Light)解耦

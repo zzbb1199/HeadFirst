@@ -1,0 +1,23 @@
+@startuml
+
+
+class CdPlayer{
+    on()
+    off()
+}
+
+class Amplifier{
+    on()
+    off()
+}
+
+class HomeTheaterFacade{
+    CdPlayer cdPlayer
+    Amplifier amplifier
+    watchMovie()
+    endMovie()
+}
+
+HomeTheaterFacade --> CdPlayer
+HomeTheaterFacade --> Amplifier
+@enduml

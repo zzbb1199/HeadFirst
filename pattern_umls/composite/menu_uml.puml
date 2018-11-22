@@ -1,0 +1,33 @@
+@startuml
+
+interface MenuComponent{
+    getName()
+    add(MenuComponent)
+    remove(MenuComponent)
+    getChild(int)
+}
+
+class MenuItem{
+      getName()
+        add(MenuComponent)
+        remove(MenuComponent)
+    getChild(int)
+ }
+
+class Menu{
+    menuComponents
+     getName()
+        add(MenuComponent)
+        remove(MenuComponent)
+        getChild(int)
+}
+
+
+MenuComponent <|-- MenuItem
+MenuComponent <|-- Menu
+MenuComponent <-- Menu
+
+
+
+
+@enduml

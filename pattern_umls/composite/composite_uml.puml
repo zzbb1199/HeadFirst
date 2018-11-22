@@ -1,0 +1,30 @@
+@startuml
+
+class Component{
+    operation()
+    add(Component)
+    remove(Component)
+    getChild(i)
+}
+
+class Leaf{
+    operation()
+}
+note left: 有些操作对叶节点来说无意义
+
+
+class Composite{
+      components        // 维持多个叶节点或子组件节点
+      operation()
+        add(Component)
+        remove(Component)
+        getChild(i)
+}
+note right: 有些操作对组合节点意义不大，可能会产生异常
+
+Component <|-- Leaf
+Component <|-- Composite
+Composite --> Component
+
+Client -> Component
+@enduml

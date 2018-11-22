@@ -1,0 +1,21 @@
+@startuml
+
+abstract class CaffeineBeverageWithHook{
+    prepare()   //模板方法
+    brew()      //抽象方法，交给具体实现的类去实现
+    add()       //抽象方法，交给具体实现的类去实现
+}
+
+ class CaffeWithHook{
+     brew()
+     add()
+ }
+
+  class Tea{
+      brew()
+      add()
+  }
+
+  CaffeineBeverageWithHook <|-- CaffeWithHook
+  CaffeineBeverageWithHook <|-- Tea
+@enduml
